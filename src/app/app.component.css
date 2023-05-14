@@ -1,0 +1,23 @@
+.header {
+  background: red;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.buttons button{
+  margin-left: 50px !important;
+  align-items: center;
+  text-align: center;
+}
+
+.firstbutton {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
+.secondbutton {
+  background-color: whitesmoke !important;
+  color: black !important;
+}

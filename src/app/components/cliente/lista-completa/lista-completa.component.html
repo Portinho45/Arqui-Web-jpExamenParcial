@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div style="text-align: center;">
+
+      <h1 class="Titulo">Cliente</h1>
+    </div>
+    <form [formGroup]="jpform">
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Id</mat-label>
+        <input matInput required placeholder="Nombre" formControlName="id" readonly>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="example-full-width">
+        <mat-label>Nombre</mat-label>
+        <input matInput required placeholder="Nombre" formControlName="jpname" readonly>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="example-full-width">
+        <mat-label>Fecha</mat-label>
+        <input matInput required placeholder="Fecha" formControlName="jpbirthdate" readonly>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="example-full-width">
+        <mat-label>Direccion</mat-label>
+        <input matInput required placeholder="Direccion" formControlName="jpadress" readonly>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="example-full-width">
+        <mat-label>Telefono</mat-label>
+        <input matInput required placeholder="Telefono" formControlName="jpphone" readonly>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input matInput required placeholder="Email" formControlName="jpname" readonly>
+      </mat-form-field>
+      <br>
+
+      <div style="text-align: center;">
+
+      <button class="cancelbutton" mat-raised-button color="warn" routerLink="/cliente">Regresar</button>
+      <br>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
