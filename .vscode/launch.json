@@ -11,7 +11,7 @@
     },
     {
       "command": "npm run server",
-      "name": "RunServer",
+      "name": "Run Server",
       "request": "launch",
       "type": "node-terminal",
       "url": "http://localhost:5000"
