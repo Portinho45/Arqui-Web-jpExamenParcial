@@ -31,6 +31,7 @@ export class ListarComponent implements OnInit{
 
     this.aS.getList().subscribe(data => {
       this.dataSource = new MatTableDataSource(data);
+        this.dataSource.paginator = this.paginator;
     })
 
     this.aS.getConfirmDelete().subscribe(data => {
